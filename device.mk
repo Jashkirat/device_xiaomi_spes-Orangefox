@@ -56,6 +56,10 @@ PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
     fastbootd
 
+# FUSE passthrough
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.sys.fuse.passthrough.enable=true
+
 # Init scripts
 PRODUCT_PACKAGES += \
     init.recovery.qcom.sh \
