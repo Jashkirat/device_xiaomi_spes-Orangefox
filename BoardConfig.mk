@@ -37,10 +37,6 @@ AB_OTA_PARTITIONS += \
     vendor \
     vendor_boot
 
-# Bluetooth
-TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
-TARGET_USE_QTI_BT_STACK := true
-
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := bengal
 TARGET_NO_BOOTLOADER := true
@@ -48,9 +44,6 @@ TARGET_NO_BOOTLOADER := true
 # Build Hack
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
-
-# DRM
-TARGET_ENABLE_MEDIADRM_64 := true
 
 # Kernel
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
@@ -121,9 +114,6 @@ TARGET_COPY_OUT_PRODUCT := product
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := bengal
-
-# Power
-TARGET_USES_INTERACTION_BOOST := true
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
