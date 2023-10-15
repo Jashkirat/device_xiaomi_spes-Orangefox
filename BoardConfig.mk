@@ -33,6 +33,7 @@ AB_OTA_PARTITIONS += \
     system_ext \
     vbmeta \
     vbmeta_system \
+    vendor \
     vendor_boot
 
 # Bluetooth
@@ -96,7 +97,7 @@ BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 100663296
 
 BOARD_SUPER_PARTITION_SIZE := 9126805504
 BOARD_SUPER_PARTITION_GROUPS := qti_dynamic_partitions
-BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := system system_ext product
+BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := system system_ext product vendor
 BOARD_QTI_DYNAMIC_PARTITIONS_SIZE := 9122611200
 
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
