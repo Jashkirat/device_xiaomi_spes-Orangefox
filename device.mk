@@ -133,7 +133,9 @@ TW_FRAMERATE := 90
 TW_OVERRIDE_SYSTEM_PROPS := \
     "ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental"
 
-
+#OF_DEFAULT_KEYMASTER_VERSION This is to specify the default version for the keymaster services used for decryption
+OF_DEFAULT_KEYMASTER_VERSION := 4.1
+TW_FORCE_KEYMASTER_VER := true
 # Vibrator
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 
