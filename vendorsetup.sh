@@ -58,7 +58,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export OF_FLASHLIGHT_ENABLE=1
   
 	# Use Magisk v26.3 for the magisk addon
-	export FOX_USE_SPECIFIC_MAGISK_ZIP="$device/xiaomi/spes/addon/Magisk.v26.3.zip"
+	export FOX_USE_SPECIFIC_MAGISK_ZIP="/device/xiaomi/spes/addon/Magisk.v26.3.zip"
        
         #  Screen settings
 	export OF_SCREEN_H=2400
