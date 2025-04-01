@@ -1,8 +1,8 @@
 [
   {
     "remote": "github",
-    "repository": "mi-sdm680/android_kernel_xiaomi_sm6225",
+    "repository": "muralivijay/kernel_xiaomi_sm6225",
     "target_path": "kernel/xiaomi/spes",
-    "revision": "spes-r-oss"
+    "revision": "main"
   }
 ]
