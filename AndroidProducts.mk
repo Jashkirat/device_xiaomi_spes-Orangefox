@@ -10,5 +10,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     twrp_spes-user \
     twrp_spes-userdebug \
-    twrp_spes-eng \
-    twrp_spes-ap2a-eng 
+    twrp_spes-eng
