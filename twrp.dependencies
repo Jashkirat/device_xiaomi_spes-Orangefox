@@ -1,8 +1,8 @@
 [
   {
     "remote": "github",
-    "repository": "muralivijay/kernel_xiaomi_sm6225",
+    "repository": "muralivijay/kernel_xiaomi_spes",
     "target_path": "kernel/xiaomi/spes",
-    "revision": "main"
+    "revision": "main-a16-sm8250-base"
   }
 ]
