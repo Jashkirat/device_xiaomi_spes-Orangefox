@@ -59,7 +59,6 @@ if [ "$1" = "$FDEVICE" ] || [ "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export OF_MAINTAINER="JashkiratV"
     export FOX_VIRTUAL_AB_DEVICE=1
     export OF_ADVANCED_SECURITY=1
-    export OF_FLASHLIGHT_ENABLE=1
 
     # Use specific Magisk version
     export FOX_USE_SPECIFIC_MAGISK_ZIP="$PWD/device/xiaomi/spes/addon/Magisk.v26.3.zip"
