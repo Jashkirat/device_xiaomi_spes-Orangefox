@@ -55,7 +55,7 @@ if [ "$1" = "$FDEVICE" ] || [ "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export OF_NO_MIUI_PATCH_WARNING=1
     export OF_DONT_PATCH_ENCRYPTED_DEVICE=1
     export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
-    export FOX_BUILD_TYPE="Beta"
+    export FOX_BUILD_TYPE="Stable"
     export OF_MAINTAINER="JashkiratV"
     export FOX_VIRTUAL_AB_DEVICE=1
     export OF_ADVANCED_SECURITY=1
